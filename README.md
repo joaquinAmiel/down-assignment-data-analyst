@@ -34,7 +34,8 @@ An **exposure** happens when a user’s profile gets viewed by another user, who
 * Users flagged as bad actors are not being considered in our analysis, because it can be a non real exposure.   
 * Cnt: after some investigations, I understand the cnt as the number of times that a user A views a user B in one day using one filter type. The following table shows an example:  
     
-  ![][image1]
+  ![image](https://github.com/user-attachments/assets/91400173-d24b-41a4-a1ce-4503d7b97cff)
+
 
 * Table profile views contain views only for August 2024\. Thus, we are not going to consider users created after 1st of september.  
 * The user uses mostly the nearby option to view other profiles (86.8%), then 10% of users are looking for a 3some (exposed user needs to be open to 3somes), and around 2% are looking for users in specific locations (not nearby, i think that this is a premium feature).   
