@@ -34,18 +34,21 @@ An **exposure** happens when a user’s profile gets viewed by another user, who
 * Users flagged as bad actors are not being considered in our analysis, because it can be a non real exposure.   
 * Cnt: after some investigations, I understand the cnt as the number of times that a user A views a user B in one day using one filter type. The following table shows an example:  
     
-  ![image](https://github.com/user-attachments/assets/91400173-d24b-41a4-a1ce-4503d7b97cff)
+![image](https://github.com/user-attachments/assets/f6d56132-33d6-4be1-80c0-0efd2135a222)
 
 
 * Table profile views contain views only for August 2024\. Thus, we are not going to consider users created after 1st of september.  
 * The user uses mostly the nearby option to view other profiles (86.8%), then 10% of users are looking for a 3some (exposed user needs to be open to 3somes), and around 2% are looking for users in specific locations (not nearby, i think that this is a premium feature).   
     
-  ![][image2]  
+  ![image](https://github.com/user-attachments/assets/91400173-d24b-41a4-a1ce-4503d7b97cff)
+   
   Filters were reclassified in 4 categories: nearby, 3some, hot, location and others.  
     
 * Another important topic is the definition of a new user. To address this topic I consider the sign-ups of 1st or 2nd of August and I study the number of active users every day since the sign up. And I saw that the percentage of active users drops from almost 60% of the users who sign-up to only 20%. Then after 1 week, the percentage of users drops to 10%.  
   For this reason, I consider a user in the category **New** if the user has less than 7 days since the sign up because of the significant drop, and because every user has one week to use the app (considering that user uses the app more on the weekends).   
-  ![][image3]  
+
+  ![image](https://github.com/user-attachments/assets/f353dca1-7b09-4001-b265-de684f736814)
+ 
 * In table agg\_profile\_views we have only viewed\_user\_id created before 14th of August.  
 * Finally, it is important to consider that not all the users have exposures, over the users that sign-up between 1st and 13th of August (38,121), only 21,3% (8,119) were viewed by someone in August and 95,7% (36,434) view at least one profile, maybe the rest are user who didn't complete their profiles. In this dashboard we are only interested in studying the exposures of the new users.  
 * In our user database, we have 174,197 users (not included in bad actors), where 93,5% (162,846) are males and 6.5% (11,323) are females. The category others is composed only of 28 users, so I removed them in this analysis.  
